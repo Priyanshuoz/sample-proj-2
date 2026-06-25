@@ -10,4 +10,83 @@ html,
 body{
   height: 100%;
   width: 100%;
+  
+}
+
+.Parent{
+  height: 100vh;
+  width: 100%;
+  background-color: #f9f9fb;
+
+}
+
+.Navigation{
+  padding: 35px 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.Navigation .logo{
+  display: flex;
+}
+
+.Navigation .logo img{
+  width: 42px;
+  height: 40px;
+}
+
+.Navigation .logo h4{
+  align-items: center;
+  margin-top: 6px;
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Navigation .info{ 
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.Navigation .info p{
+  font-size: 15px;
+  font-weight: 500;
+  color: #555050;
+  padding: 0 25px;
+}
+
+.Navigation button{
+  font-size: 14px;
+  text-align: center;
+  color: white;
+  background-color: #111;
+  padding: 15px 45px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.Header{
+  
+}
+.Header .sky{  
+  width: calc(100% - 100px);
+  height: 800px;
+  object-fit: cover;
+  object-position: 50% 30%;
+  margin: 0 50px;
+  border-radius: 30px;
+  object-position: 50% 80%;
+}
+
+.Header .plane{
+  position: absolute;
+  top: 120%;
+   left: 10%;
+  transform: translate(-50%, -50%); 
+  width: 1800px;
+  height: auto;
 }
