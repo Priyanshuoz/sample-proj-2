@@ -9,6 +9,10 @@ const Plane = () => {
         alt="Plane"
         className="sky"
       />
+      <div className="knowMore"> 
+        <h2>Know More</h2>
+        <i class="ri-arrow-right-line ri-2x"></i>
+      </div>
       
     </div>
   );

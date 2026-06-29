@@ -1,4 +1,4 @@
-import logo from "../assets/Logo.png";
+import logo from "../../assets/Logo.png";
 
 export const Navigation = () => {
   return (
@@ -7,7 +7,7 @@ export const Navigation = () => {
         <img src={logo} alt="Image"></img>
         <h4>UiXSHUVO</h4>
       </div>
-      <div className="info">
+      <div className="navInfo">
         <p>ABOUT</p>
         <p>TOUR</p>
         <p>PACAKAGE</p>
